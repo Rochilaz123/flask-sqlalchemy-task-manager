@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function() {
   // sidenav initialization
   let sidenav = document.querySelectorAll(".sidenav");
@@ -14,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let selects = document.querySelectorAll("select");
   M.FormSelect.init(selects);
 
-  //collapsible initialisation
-  let collapsibles = document.querySelectorAll('.collapsible');
+  // collapsible initializataion
+  let collapsibles = document.querySelectorAll(".collapsible");
   M.Collapsible.init(collapsibles);
 });
